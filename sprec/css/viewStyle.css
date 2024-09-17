@@ -1,0 +1,65 @@
+*{
+    overflow: unset;
+}
+.container{
+    height: 100%;
+    min-height: 100vh;
+}
+.main{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	margin-left: 11%;
+	margin-right: 20%;
+	margin-top: 80px;
+	width: 900px;
+	background-color: #b3afb483;
+	padding: 32px;
+	border-radius: 20px;
+    height: auto;
+}
+.main h1{
+	color: rgba(113, 99, 186, 255);
+	text-align: center;
+	padding-bottom: 25px;
+	cursor: default;
+}
+table{
+	margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 700px;
+    padding: 30px;
+    text-align: justify;
+    border-collapse: collapse;
+}
+th,td{
+    border: 2px solid rgba(113, 99, 186, 255);
+    width: 150px;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+table input[type = "button"]{
+    cursor: pointer;
+    font-size: 22px;
+    width: 180px;
+    font-weight: bold;
+    margin-left: 76px;
+    border-radius: 10px;
+}
+table input[value = "Update"]{
+    background: #4090db;
+}
+table input[value = "Delete"]{
+    background: rgb(235, 31, 31);
+}   
+.para{
+    line-height: 40px;
+    width: 260px;
+    margin-top: 25px;
+    font-size: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
